@@ -1,4 +1,4 @@
-### project2528-re
+## project2528-re
 
 **Investigation, implementation, and comparative evaluation of relation extraction (RE) models for historical texts, focusing on their suitability for historical network analysis.**
 
@@ -8,7 +8,7 @@ Comparison of classification-based relation extraction ([OpenNRE](https://github
 
 | Aspect | OpenNRE (Classification) | mREBEL (Generation) |
 |---|---|---|
-| **Approach** | Entity pair ? relation classification | Raw text ? triplet generation |
+| **Approach** | Entity pair &rarr; relation classification | Raw text &rarr; triplet generation |
 | **Input requirement** | Pre-identified entity pairs (head, tail) | Raw text only |
 | **Output** | Single relation + confidence score per pair | All entities, types, and relations |
 | **Schema** | Fixed 80 relations (wiki80) | 400+ relations (Wikidata) |
